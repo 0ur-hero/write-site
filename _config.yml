@@ -3,7 +3,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Blipty bloop here i am on the internet
 url: https://0ur-hero.github.io
-baseurl: "/home"
+baseurl: "/write-site"
 repository: "0ur-hero/write-site"
 #twitter_username: username
 #github_username: username
