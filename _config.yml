@@ -67,8 +67,6 @@ defaults:
       layout: single
       author_profile: true
  # _portfolio
- defaults:
-  # _portfolio
   - scope:
       path: ""
       type: portfolio
