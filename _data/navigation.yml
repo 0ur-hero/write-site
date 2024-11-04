@@ -1,9 +1,10 @@
 main:
+  - title: "Home"
+    url: /home/
   - title: "Posts"
     url: /posts/
   - title: "About"
     url: /about/
   - title: "Portfolio"
     url: /portfolio/
-  - title: "Home"
-    url: /home/
+
