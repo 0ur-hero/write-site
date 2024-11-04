@@ -54,11 +54,10 @@ defaults:
       type: posts
     values:
       layout: single
-      classes: wide
       author_profile: true
       read_time: false
       comments: false
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -67,6 +66,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+ # _portfolio
+ defaults:
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: false
+
 
 category_archive:
   type: liquid
