@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: https://0ur-hero.github.io
 baseurl: "/write-site"
 repository: "0ur-hero/write-site"
-minimal_mistakes_skin: sunrise
+minimal_mistakes_skin: dirt
 search: false
 
 # Build settings
