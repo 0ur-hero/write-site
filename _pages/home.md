@@ -13,7 +13,7 @@ header:
 excerpt: "Science fiction and horror writer."
 intro: 
   - excerpt: 'a little about me'
-    notice--danger: 'This website is under construction'
+    excerpt: 'This website is under construction' {: .notice--warning}
 
 # features
 feature_row2:
