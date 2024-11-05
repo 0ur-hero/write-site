@@ -14,7 +14,8 @@ excerpt: "Science fiction and horror writer."
 intro: 
   - excerpt: 'a little about me'
 
-This website is under construction{: .notice--warning} 
+{: .notice--warning} 
+This website is under construction
 
 # features
 feature_row2:
