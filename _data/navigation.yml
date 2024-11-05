@@ -1,8 +1,7 @@
 main:
+  - title: "Writing"
+    url: /work/
   - title: "News"
     url: /posts/
-  - title: "About"
-    url: /about/
-  - title: "Work"
-    url: /work/
-
+  - title: "Contact"
+    url: /contact/
