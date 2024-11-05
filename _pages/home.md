@@ -13,7 +13,6 @@ header:
 excerpt: "Science fiction and horror writer."
 intro: 
   - excerpt: 'a little about me'
-  - excerpt_class: "notice--warning"
 
 # features
 feature_row2:
