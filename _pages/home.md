@@ -8,7 +8,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/sormlandsleden.jpg
+  overlay_image: /assets/images/sodelansleden2.jpg
   caption: "Sormlandsleden: **K.L. Schroeder 2017**"
 excerpt: "bippity booop."
 intro: 
