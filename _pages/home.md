@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: ""
 layout: splash
 classes:
   - landing
@@ -8,11 +8,11 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/sodelansleden2.jpg
-  caption: "Sormlandsleden: **K.L. Schroeder 2017**"
+  overlay_image: /assets/images/soderlansleden2.jpg
+  caption: "Sormlandsleden, K.L. Schroeder 2017"
 excerpt: "bippity booop."
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'hi there'
 feature_row:
   - image_path: assets/images/1.jpg
     alt: "placeholder image 1"
