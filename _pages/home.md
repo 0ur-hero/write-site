@@ -12,8 +12,12 @@ header:
   caption: "Sormlandsleden, K.L. Schroeder 2017"
 excerpt: "Science fiction and horror writer."
 intro: 
-  - excerpt: 'a little about me [This website is under construction]{: .notice--warning} '
+  - excerpt: 'a little about me'
+---
 
+[This website is under construction]{: .notice--warning}
+
+---
 # features
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
@@ -40,6 +44,8 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
+
+[This website is under construction]{: .notice--warning}
 
 {% include feature_row id="intro" type="center" %}
 
