@@ -5,8 +5,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: https://0ur-hero.github.io
 baseurl: "/write-site"
 repository: "0ur-hero/write-site"
-#twitter_username: username
-#github_username: username
 minimal_mistakes_skin: sunrise
 search: false
 
@@ -74,6 +72,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      share: false
  # _portfolio
   - scope:
       path: "_portfolio"
