@@ -13,11 +13,8 @@ header:
 excerpt: "Science fiction and horror writer."
 intro: 
   - excerpt: 'a little about me'
----
+  - excerpt_class: "notice--warning"
 
-[This website is under construction]{: .notice--warning}
-
----
 # features
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
@@ -45,7 +42,8 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-[This website is under construction]{: .notice--warning}
+This website is under construction
+{: .notice--warning}
 
 {% include feature_row id="intro" type="center" %}
 
