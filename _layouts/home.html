@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+	<div class="inner">
+        <div class="row 200%">
+	<div class="6u 12u$(medium)">
+        <header class="major">
+			<img src="{% link assets/images/logo.png %}">
+        </header>
+    <div class="content">
+        <p style="text-transform: uppercase;">science fiction and horror writer.
+</p>
+    </div>
+    </div>
+    <div class="6u$ 12u$(medium)">
+            
+        <div class="box">
+            <h3>No One to Hold the Distant Dead</h3>
+	        <p>Novella out from Psychopomp, November 2025</p>
+<!--            				<ul class="actions">
+					<li><a href="https://psychopomp.com/grave-goods/" class="button">Psychopomp</a></li>
+					<li><a href="https://goodreads.com" class="button">Goodreads</a></li>
+				</ul>-->
+</div>
+        </div>
+            </div>
+    </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
