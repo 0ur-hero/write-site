@@ -1,91 +1,39 @@
-title: Writing Page
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Blipty bloop here i am on the internet
-url: https://0ur-hero.github.io
-baseurl: "/write-site"
-repository: "0ur-hero/write-site"
-minimal_mistakes_skin: dirt
-search: false
-
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes@4.26.2
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: _posts/page:num
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-
-
-include:
-  - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-
+# site settings
+title: K.L.
+subtitle: Schroeder
+email: klschroeder.phd@gmail.com
+description: science fiction and<br /> horror writer.
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "a description of miiii."
 
-footer:
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 4
 
-defaults:
-  # _posts
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: false
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      share: false
- # _portfolio
-  - scope:
-      path: "_portfolio"
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: false
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  Goodreads: https://www.goodreads.com 
+  GitLab: 
+  Google-Plus:
+  Instagram: 
+  LinkedIn: 
+  Twitter: 
+  Facebook: 
+  Slack: 
+  Bluesky: https://bsky.app/profile/klschroeder.bsky.social
 
+# build settings
+markdown: kramdown
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
