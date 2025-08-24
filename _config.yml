@@ -1,7 +1,7 @@
 # site settings
 title: K.L.
 subtitle: Schroeder
-email: na
+email: klschroeder.phd@gmail.com
 description: science fiction and<br /> horror writer.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: https://author.klschroeder.com # the base hostname & protocol for your site
