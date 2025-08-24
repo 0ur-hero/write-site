@@ -7,5 +7,6 @@ group :jekyll_plugins do
 end
 
 #fix for mismatched deps
+gem 'ffi', '< 1.17.0'
 gem 'bigdecimal'
 gem 'jekyll-sass-converter', '~> 2.0'
