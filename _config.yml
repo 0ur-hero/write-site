@@ -1,11 +1,12 @@
 # site settings
 title: K.L.
 subtitle: Schroeder
-email: klschroeder.phd@gmail.com
+email: siteemail@mysite.com
 description: science fiction and<br /> horror writer.
 baseurl: "/write-site" # the subpath of your site, e.g. /blog
 url: https://author.klschroeder.com # the base hostname & protocol for your site
 author:
+remote_theme: andrewbanchich/forty-jekyll-theme
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
