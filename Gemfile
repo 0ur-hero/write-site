@@ -8,3 +8,5 @@ end
 
 #fix for mismatched deps
 gem 'ffi', '< 1.17.0'
+
+gem 'jekyll-sass-converter', '~> 2.0'
