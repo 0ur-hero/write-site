@@ -42,9 +42,9 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Lightbringers - Short story</h3>
+					<h3>Lightbringers - Northern Nights</h3>
 				</header>
-				<p>Published in the Northern Nights anthology from Undertow press.</p>
+				<p>Short story published as part of the World Fantasy Award-nominated Northern Nights anthology. Undertow Press.</p>
 <!--				<ul class="actions">
 					<li><a href="generic.html" class="button">Undertow</a></li>
 				</ul>	-->
@@ -58,9 +58,9 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Fondelac - Short story</h3>
+					<h3>Fondelac - And Lately, the Sun.</h3>
 				</header>
-				<p>Published in <i>And Lately, the Sun</i> climate fiction anthology. Calyx Press, 2021.</p>
+				<p>Short story published in <i>And Lately, the Sun</i> climate fiction anthology. Calyx Press, 2021.</p>
 				<!-- <ul class="actions">
 					<li><a href="https://www.amazon.com" class="button">Amazon</a></li>
 				</ul> -->
