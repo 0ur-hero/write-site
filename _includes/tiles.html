@@ -4,8 +4,29 @@
     {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" %}
 {% endif %}
 <section id="one" class="tiles">
-  {% for tile in tiles limit:site.tiles-count %}
   <article>
+    <span class="image">
+      <img src="assets/images/pic11.jpg" alt="Northern Nights" />
+    </span>
+    <header class="major">
+      <h3><a href="https:/undertowpublications.com/shop/northern-nights" class="link">Northern Nights</a></h3>
+      <p>World Fantasy Award-Nominated anthology featuring Lightbringers</p>
+    </header>
+  </article>
+  
+  <article>
+    <span class="image">
+      <img src="assets/images/pic07.jpg" alt="No One to Hold the Distant Dead" />
+    </span>
+    <header class="major">
+      <h3><a href="https://psychopomp.com/product/no-one-to-hold-the-distant-dead/" class="link">No One to Hold the Distant Dead</a></h3>
+      <p>Out now from Psychopomp</p>
+    </header>
+  </article>
+</section>
+
+<!-- 
+<article>
     <span class="image">
       <img src="{{ tile.image }}" alt="{{ tile.title }}" />
     </span>
@@ -16,3 +37,4 @@
   </article>
   {% endfor %}
 </section>
+--> 
