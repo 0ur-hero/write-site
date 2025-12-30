@@ -2,7 +2,8 @@
 layout: page
 title: About
 image: assets/images/pic11.jpg
-nav-menu: true
+nav-menu: false
+show_tile: false
 ---
 <div id="main" class="alt">
 
@@ -16,7 +17,7 @@ nav-menu: true
 
 <div class="row 200%">
 	<div class="6u 12u$(medium)">
-<!-- Box -->
+<!-- Box 
 <div class="box">
 		<h3>About</h3>
 		<p>K.L. Schroeder is a speculative fiction writer, microbiologist, and aging goth forged by the dark winters of Canada and Sweden. They are a member of the Stockholm Writers' Group, the Canadian Science Fiction and Fantasy Association (CSFFA), Edinburgh Science Fiction & Fantasy (ESFF), and can also be found doing circus acrobatics. <br><br>Other places to follow their work:</p>
@@ -27,7 +28,7 @@ nav-menu: true
 			<ul class="actions">
 				<li><a href="mailto:klschroeder.phd@gmail.com" class="button special">Contact</a></li>
 </ul>
-
+-->
 </div>
     </div>
 

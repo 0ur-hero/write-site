@@ -3,7 +3,8 @@ title: Short fiction
 layout: landing
 description: 'Find where you can read my work'
 image: assets/images/pic07.jpg
-nav-menu: true
+nav-menu: false
+show_tile: false
 ---
 
 <!-- Main -->
